@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Todo-List</title>
+	
+	<script src="./node_modules/jquery/dist/jquery.js"></script>
+	<script src="./js/base.js"></script>
+	
+	<link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
+	<link rel="stylesheet" href="./css/base.css">
+</head>
+<body>
+	<h1>我的待办事项</h1>
+	<main class="container">
+		
+		
+		
+		<section class="add-task">
+			<input type="text" placeholder="e.g. 买菜">
+			<input type="submit" value="提交">
+
+		</section>
+
+		<section class="task-list">
+			<ul>
+				<li><input type="checkbox" >
+					<p>rgbdadadfadfdsfasdf</p>
+					<div class="right">
+						<a href="#" class="remove">删除</a>
+						<a href="#" class="detail-a">详情</a>
+					</div>
+					
+				</li>
+				<li><input type="checkbox" >
+					<div class="right">
+						<a href="#" class="remove">删除</a>
+						<a href="#" class="detail-a">详情</a>
+					</div>
+				</li>
+				<li><input type="checkbox" >
+					<div class="right">
+						<a href="#" class="remove">删除</a>
+						<a href="#" class="detail-a">详情</a>
+					</div>
+				</li>
+				<li><input type="checkbox" >
+					<p>rgbdadadfadfdsfasdf</p>
+					<div class="right">
+						<a href="#" class="remove">删除</a>
+						<a href="#" class="detail-a">详情</a>
+					</div>
+				</li>
+	
+			</ul>
+		</section>
+		
+		<div class="detail-mask">
+		
+		</div>
+		
+		<section class="detail">
+			<input type="text" class="title" value="title">
+			<textarea name="desc" class="desc" cols="30" rows="10">description</textarea>
+			<input type="date" class="remind">
+			<input type="submit" value="确定">
+		</section>
+		
+	</main>
+</body>
+</html>

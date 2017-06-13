@@ -1,0 +1,135 @@
+body{
+	background: #BFBFBF;
+}
+
+
+.container{
+	max-width: 600px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.detail-mask{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(30,30,30,0.3);
+}
+
+.detail{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+li{
+	position: relative;
+}
+div.right{
+	display: inline-block;
+	position: absolute;
+	right: 1em;
+	top: 1em;
+	
+}
+
+
+
+h1{
+	text-align: center;
+}
+
+.add-task input[type=text]{
+	float: left;
+	margin-right: 1%;
+	width: 84%;
+}
+
+
+[type=submit] {
+	width: 15%;
+	margin: 8px 0;
+	height: 2em;
+	background: #bfae99;
+	border: none;
+}
+
+
+[type=submit]:hover{
+	background: #dac6ae;
+	cursor: pointer;
+}
+
+
+input[type=text],
+input[type=date],
+textarea,
+li{
+	-webkit-border-radius: 3px;
+	-webkit-box-sizing: border-box;
+	border: 0;
+	/*display: block;*/
+	margin: 8px 0;
+	height: 2.5em;
+	width: 84%;
+}
+
+.task-list li
+
+{
+	width: 100%;
+}
+
+
+input{
+	margin: 0 1% 0 0;
+	padding: .2em;
+	height: 2em;
+}
+
+
+.detail input,
+textarea{
+	display: block;
+	width: 15em;
+}
+
+
+
+
+
+
+
+ul{
+	padding: 0;
+	margin: 10px 0;
+}
+
+li{
+	background: #bfae99;
+	list-style: none;
+	margin: 2px 0;
+	padding: 0 .2em;
+	cursor: pointer;
+	/*border-bottom: 2px;*/
+}
+
+li:hover{
+	background: #dac6ae;
+	-webkit-box-shadow: 0 0 0 1px #dac6ae;
+	border: 0;
+	/*text-shadow: 5px 5px 5px ;*/
+}
+
+p,
+input[type=checkbox]{
+	display: inline-block;
+	vertical-align: middle;
+	/*padding-bottom: .5px;*/
+}
+
+p{
+	color: #030729;
+}
